@@ -1,0 +1,14 @@
+#### ------------- LIBRARIES ------------------ ####
+library(stringr)
+library(reshape2)
+
+#### ------------- DATA ----------------------- ####
+
+ticks <- read.csv('tick_data.csv')
+
+#### ------------- DATA EXPLORATION ----------- ####
+
+str(ticks)
+attributes(ticks)
+summary(ticks)
+Hmisc::describe(ticks)
